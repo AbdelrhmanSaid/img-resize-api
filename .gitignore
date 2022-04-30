@@ -1,0 +1,17 @@
+# Ignore node|npm related stuff
+node_modules
+package-lock.json
+yarn.lock
+
+# Ignore dist / build directories
+dist
+build
+assets/thumbs/*
+!assets/thumbs/.gitignore
+
+# Ignore IDEs config directories
+.idea
+.vscode
+
+# Ignore (env) files [We don't have any]
+*.env
